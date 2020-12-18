@@ -1,0 +1,59 @@
+
+  H {font-size: 72px;
+  font-family: "Arial";
+  color: rgb(208, 203, 219);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;}
+ 
+ 
+P{font-size: 18px;
+  font-family: "Arial";
+  color: rgb(208, 203, 219);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  }
+
+
+
+ #menu {font-size: 20px;
+  font-family: "Arial";
+  color: rgb(208, 203, 219);
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  float: left;
+  list-style-type: none;
+  background-color:#550ae0;
+  }
+
+a:link {
+  color: rgb(208, 203, 219);
+  background-color: transparent;
+  text-decoration: none;
+  list-style-type: none
+}
+a:visited {
+  color: rgb(208, 203, 219);
+  background-color: transparent;
+  text-decoration: none;
+  list-style-type: none
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#homeknop {width:200px;
+}
+
+#foto {width:30%;
+       Float:right
+      }

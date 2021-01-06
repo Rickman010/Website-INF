@@ -1,18 +1,24 @@
 
-  H {font-size: 72px;
+  H1 {font-size: 72px;
   font-family: "Arial";
   color: rgb(208, 203, 219);
   font-weight: bold;
-  line-height: 1.2;
+  
   text-align: center;}
  
+ H3 {font-size: 26px;
+  font-family: "Arial";
+  color: rgb(208, 203, 219);
+  font-weight: bold;
+  
+  text-align: center;}
  
 P{font-size: 18px;
   font-family: "Arial";
   color: rgb(208, 203, 219);
   font-weight: bold;
-  line-height: 1.2;
-  text-align: left;
+  
+  text-align: center;
   }
 
 
@@ -26,6 +32,7 @@ P{font-size: 18px;
   float: left;
   list-style-type: none;
   background-color:#550ae0;
+  height: 100%;
   }
 
 a:link {

@@ -121,3 +121,11 @@ form {font-size: 18px;
 }
 
 #back   {padding:20px;margin-top:70px;}
+
+table   {font-size: 18px;
+  font-family: "Arial";
+  color: rgb(208, 203, 219);
+  font-weight: bold;
+  
+  text-align: left;
+  }

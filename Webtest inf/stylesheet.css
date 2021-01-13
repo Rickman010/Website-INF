@@ -13,6 +13,13 @@
   
   text-align: center;}
  
+ H4 {font-size: 22px;
+  font-family: "Arial";
+  color: rgb(208, 203, 219);
+  font-weight: bold;
+  
+  text-align: center;}
+  
 P{font-size: 18px;
   font-family: "Arial";
   color: rgb(208, 203, 219);
@@ -35,8 +42,38 @@ P{font-size: 18px;
   height: 100%;
   }
 
-a:link {
+ #current  {
+ list-style-type: none;
+ height: 300%;
+ 
+ 
+ }
+a.nav:link {
   color: rgb(208, 203, 219);
+  background-color: transparent;
+  text-decoration: none;
+  list-style-type: none
+}
+a.nav:visited {
+  color: rgb(208, 203, 219);
+  background-color: transparent;
+  text-decoration: none;
+  list-style-type: none
+}
+a.nav:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a.nav:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+a:link {
+  color: rgb(208, 201, 217); 
   background-color: transparent;
   text-decoration: none;
   list-style-type: none

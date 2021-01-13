@@ -1,31 +1,31 @@
 
-  H1 {font-size: 72px;
+  H1 {font-size: 47px;
   font-family: "Arial";
   color: rgb(208, 203, 219);
   font-weight: bold;
   
-  text-align: center;}
+  text-align: left;}
  
  H3 {font-size: 26px;
   font-family: "Arial";
   color: rgb(208, 203, 219);
   font-weight: bold;
   
-  text-align: center;}
+  text-align: left;}
  
  H4 {font-size: 18px;
   font-family: "Arial";
   color: rgb(208, 203, 219);
   font-weight: bold;
   
-  text-align: center;}
+  text-align: left;}
   
 P{font-size: 18px;
   font-family: "Arial";
   color: rgb(208, 203, 219);
   font-weight: bold;
   
-  text-align: center;
+  text-align: left;
   }
 
 
@@ -41,13 +41,17 @@ P{font-size: 18px;
    width: 100%;
   position: fixed; 
   margin-top: 0px;
-  
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
   }
 
  #current  {
  list-style-type: none;
  height: 300%;
- text-align: center;
+ text-align: left;
  
  }
 a.nav:link {
@@ -113,4 +117,7 @@ form {font-size: 18px;
   
   }
 
-#linkje  {display: inline;}
+#linkje  {display: inline;
+}
+
+#back   {padding:20px;margin-top:70px;}

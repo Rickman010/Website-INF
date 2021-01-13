@@ -13,7 +13,7 @@
   
   text-align: center;}
  
- H4 {font-size: 22px;
+ H4 {font-size: 18px;
   font-family: "Arial";
   color: rgb(208, 203, 219);
   font-weight: bold;
@@ -35,17 +35,19 @@ P{font-size: 18px;
   color: rgb(208, 203, 219);
   font-weight: bold;
   line-height: 1.2;
-  text-align: center;
   float: left;
   list-style-type: none;
   background-color:#550ae0;
-  height: 100%;
+   width: 100%;
+  position: fixed; 
+  margin-top: 0px;
+  
   }
 
  #current  {
  list-style-type: none;
  height: 300%;
- 
+ text-align: center;
  
  }
 a.nav:link {
@@ -99,5 +101,16 @@ a:active {
 }
 
 #foto {width:30%;
-       Float:right
+       Float:right;
+       z-index: -1;
       }
+
+form {font-size: 18px;
+  font-family: "Arial";
+  color: rgb(208, 203, 219);
+  font-weight: bold;
+  
+  
+  }
+
+#linkje  {display: inline;}
